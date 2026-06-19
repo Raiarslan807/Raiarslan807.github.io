@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Arsalan Ramzan — Web Developer Portfolio. Modern, responsive websites using HTML, CSS, JavaScript & Bootstrap."/>
+  <title>Arsalan Ramzan · Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+  <canvas id="aurora"></canvas>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a class="nav-brand" href="#">AR<span class="dot">.</span></a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#hero"     class="nav-link" data-section="hero">Home</a></li>
+      <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills"   class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/923701794679" target="_blank" rel="noopener" class="nav-whatsapp">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-reveal>Available for Projects</p>
+      <h1 class="hero-heading" data-reveal>
+        <span class="line">I build</span>
+        <span class="line italic-accent">beautiful</span>
+        <span class="line">websites.</span>
+      </h1>
+      <p class="hero-sub" data-reveal>
+        Arsalan Ramzan — Web Developer crafting modern, responsive &amp; user-friendly digital experiences from Rawalpindi, Pakistan.
+      </p>
+      <div class="hero-actions" data-reveal>
+        <a href="#projects" class="btn-glow">See My Work</a>
+        <a href="https://wa.me/923701794679" target="_blank" rel="noopener" class="btn-ghost">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+      <div class="hero-scroll" data-reveal>
+        <div class="scroll-line"></div>
+        <span>scroll</span>
+      </div>
+    </div>
+
+    <!-- Floating tech pills -->
+    <div class="tech-float">
+      <span class="pill" style="--d:0s">HTML5</span>
+      <span class="pill" style="--d:.4s">CSS3</span>
+      <span class="pill" style="--d:.8s">JavaScript</span>
+      <span class="pill" style="--d:1.2s">Bootstrap</span>
+      <span class="pill" style="--d:1.6s">Git</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-layout">
+
+        <div class="about-visual" data-reveal>
+          <div class="av-frame">
+            <!--
+              ╔══════════════════════════════════════╗
+              ║  ADD YOUR PHOTO:                     ║
+              ║  Replace "your-photo.jpg" below with ║
+              ║  your actual image filename and put  ║
+              ║  the image in the same folder.       ║
+              ╚══════════════════════════════════════╝
+            -->
+            <img
+              src="Arsalan.jpg"
+              alt="Arsalan Ramzan"
+              class="av-photo"
+              onerror="this.style.display='none'; document.getElementById('av-fallback').style.display='flex';"
+            />
+            <div class="av-initials" id="av-fallback">AR</div>
+            <div class="av-ring av-ring--1"></div>
+            <div class="av-ring av-ring--2"></div>
+            <div class="av-tag av-tag--tl"><i class="fab fa-html5"></i></div>
+            <div class="av-tag av-tag--tr"><i class="fab fa-css3-alt"></i></div>
+            <div class="av-tag av-tag--bl"><i class="fab fa-js"></i></div>
+            <div class="av-tag av-tag--br"><i class="fab fa-bootstrap"></i></div>
+          </div>
+        </div>
+
+        <div class="about-body">
+          <p class="eyebrow" data-reveal>Who I Am</p>
+          <h2 class="section-heading" data-reveal>
+            Passionate about the <em>craft</em> of the web
+          </h2>
+          <p class="body-text" data-reveal>
+            I'm <strong>Arsalan Ramzan</strong>, a <strong>BSIT 5th Semester</strong> student at the University of the Punjab Pothohar Campus, Rawalpindi. I write clean, semantic HTML, style with precision in CSS, and bring interactivity to life with JavaScript.
+          </p>
+          <p class="body-text" data-reveal>
+            Every project I build is a chance to improve — in performance, design thinking, and user experience. I'm currently expanding into modern frameworks and always open to collaboration.
+          </p>
+
+          <div class="about-facts" data-reveal>
+            <div class="fact">
+              <span class="fact-num">5+</span>
+              <span class="fact-label">Projects</span>
+            </div>
+            <div class="fact-sep"></div>
+            <div class="fact">
+              <span class="fact-num">3rd</span>
+              <span class="fact-label">Year</span>
+            </div>
+            <div class="fact-sep"></div>
+            <div class="fact">
+              <span class="fact-num">100%</span>
+              <span class="fact-label">Responsive</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-glow" data-reveal>Work With Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Tech Stack</p>
+      <h2 class="section-heading" data-reveal>What I work <em>with</em></h2>
+      <div class="skills-grid">
+        <div class="skill-tile" data-reveal data-delay="0">
+          <div class="st-top"><div class="st-icon html"><i class="fab fa-html5"></i></div><span class="st-pct">90%</span></div>
+          <h3 class="st-name">HTML5</h3>
+          <p class="st-desc">Semantic, accessible markup with modern HTML structure and SEO best practices.</p>
+          <div class="st-track"><div class="st-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-tile" data-reveal data-delay="80">
+          <div class="st-top"><div class="st-icon css"><i class="fab fa-css3-alt"></i></div><span class="st-pct">85%</span></div>
+          <h3 class="st-name">CSS3</h3>
+          <p class="st-desc">Flexbox, Grid, custom properties, animations and mobile-first responsive layouts.</p>
+          <div class="st-track"><div class="st-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill-tile" data-reveal data-delay="160">
+          <div class="st-top"><div class="st-icon js"><i class="fab fa-js"></i></div><span class="st-pct">75%</span></div>
+          <h3 class="st-name">JavaScript</h3>
+          <p class="st-desc">ES6+, DOM manipulation, events, fetch API and building interactive UIs.</p>
+          <div class="st-track"><div class="st-fill" data-w="75"></div></div>
+        </div>
+        <div class="skill-tile" data-reveal data-delay="240">
+          <div class="st-top"><div class="st-icon bs"><i class="fab fa-bootstrap"></i></div><span class="st-pct">82%</span></div>
+          <h3 class="st-name">Bootstrap</h3>
+          <p class="st-desc">Rapid, consistent UI development with Bootstrap 5 grid, components and utilities.</p>
+          <div class="st-track"><div class="st-fill" data-w="82"></div></div>
+        </div>
+        <div class="skill-tile" data-reveal data-delay="320">
+          <div class="st-top"><div class="st-icon git"><i class="fab fa-git-alt"></i></div><span class="st-pct">70%</span></div>
+          <h3 class="st-name">Git & GitHub</h3>
+          <p class="st-desc">Version control, branching strategies and open-source collaboration workflows.</p>
+          <div class="st-track"><div class="st-fill" data-w="70"></div></div>
+        </div>
+        <div class="skill-tile" data-reveal data-delay="400">
+          <div class="st-top"><div class="st-icon resp"><i class="fas fa-mobile-screen-button"></i></div><span class="st-pct">98%</span></div>
+          <h3 class="st-name">Responsive Design</h3>
+          <p class="st-desc">Every layout I build works flawlessly from 320px phones to 4K monitors.</p>
+          <div class="st-track"><div class="st-fill" data-w="88"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <p class="eyebrow" data-reveal>Portfolio</p>
+      <h2 class="section-heading" data-reveal>Things I've <em>built</em></h2>
+
+      <div class="projects-grid">
+
+        <!-- ★ LIVE PROJECT — FIRST ★ -->
+        <article class="proj-card featured live-badge" data-reveal data-delay="0">
+          <div class="proj-thumb thumb-laundry">
+            <div class="proj-live-tag"><i class="fas fa-circle"></i> Live</div>
+            <span class="thumb-emoji">👕</span>
+            <div class="proj-overlay">
+              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="https://epic-smart-laundry-zeta.vercel.app/" target="_blank" rel="noopener" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live Site</a>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags">
+              <span>Next.js</span><span>Tailwind CSS</span><span>Vercel</span>
+            </div>
+            <h3 class="proj-title">EPIC Smart Laundry</h3>
+            <p class="proj-desc">A full premium laundry pickup &amp; delivery service website for students and professionals — with booking, pricing plans, order tracking and WhatsApp integration. Deployed live on Vercel.</p>
+          </div>
+        </article>
+
+        <!-- Demo Project 2 -->
+        <article class="proj-card" data-reveal data-delay="100">
+          <div class="proj-thumb thumb-1">
+            <span class="thumb-emoji">🛒</span>
+            <div class="proj-overlay">
+              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live</a>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3 class="proj-title">E-Commerce Landing</h3>
+            <p class="proj-desc">A pixel-perfect product landing page with cart UI, animated hover states and fully responsive grid layout.</p>
+          </div>
+        </article>
+
+        <!-- Demo Project 3 -->
+        <article class="proj-card" data-reveal data-delay="200">
+          <div class="proj-thumb thumb-2">
+            <span class="thumb-emoji">🌤️</span>
+            <div class="proj-overlay">
+              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live</a>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>JavaScript</span><span>REST API</span><span>CSS</span></div>
+            <h3 class="proj-title">Weather Dashboard</h3>
+            <p class="proj-desc">Real-time weather data via OpenWeather API with dynamic gradients, city search and 5-day forecast cards.</p>
+          </div>
+        </article>
+
+        <!-- Demo Project 4 -->
+        <article class="proj-card" data-reveal data-delay="300">
+          <div class="proj-thumb thumb-3">
+            <span class="thumb-emoji">✅</span>
+            <div class="proj-overlay">
+              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+              <span class="proj-btn proj-btn--soon">Coming Soon</span>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-tags"><span>Bootstrap 5</span><span>JS</span><span>LocalStorage</span></div>
+            <h3 class="proj-title">Task Manager App</h3>
+            <p class="proj-desc">A drag-and-drop task manager with categories, priority flags and persistent local storage built on Bootstrap 5.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div class="contact-left">
+          <p class="eyebrow" data-reveal>Let's Connect</p>
+          <h2 class="section-heading" data-reveal>Have a project? <em>Let's talk.</em></h2>
+          <p class="body-text" data-reveal>Whether it's a freelance website, a university project, or just a chat about tech — I'm always open. Reach out via the form or hit me up directly below.</p>
+
+          <div class="contact-links" data-reveal>
+            <a href="https://wa.me/923701794679" target="_blank" rel="noopener" class="c-link c-link--wa">
+              <i class="fab fa-whatsapp"></i>
+              <div>
+                <span class="c-link-label">WhatsApp</span>
+                <span class="c-link-val">0370-1794679</span>
+              </div>
+            </a>
+            <a href="mailto:arslanramzan807@gmail.com" class="c-link">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="c-link-label">Email</span>
+                <span class="c-link-val">arslanramzan807@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="c-link">
+              <i class="fab fa-github"></i>
+              <div>
+                <span class="c-link-label">GitHub</span>
+                <span class="c-link-val">github.com/Raiarslan807</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/arsalan-ramzan-b28202253" target="_blank" rel="noopener" class="c-link">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <span class="c-link-label">LinkedIn</span>
+                <span class="c-link-val">in/arsalan-ramzan-b28202253</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right" data-reveal>
+          <form id="contactForm" class="c-form" novalidate>
+            <div class="cf-row">
+              <div class="cf-field">
+                <input type="text" id="fname" name="fname" placeholder=" " required/>
+                <label for="fname">Your Name</label>
+              </div>
+              <div class="cf-field">
+                <input type="email" id="femail" name="femail" placeholder=" " required/>
+                <label for="femail">Email Address</label>
+              </div>
+            </div>
+            <div class="cf-field">
+              <input type="text" id="fsubject" name="fsubject" placeholder=" "/>
+              <label for="fsubject">Subject</label>
+            </div>
+            <div class="cf-field">
+              <textarea id="fmsg" name="fmsg" rows="5" placeholder=" " required></textarea>
+              <label for="fmsg">Your Message</label>
+            </div>
+            <button type="submit" class="btn-glow btn-full" id="sendBtn">
+              <span class="btn-text">Send Message</span>
+              <i class="fas fa-paper-plane btn-icon"></i>
+            </button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <a class="nav-brand" href="#">AR<span class="dot">.</span></a>
+      <p class="footer-copy">Designed &amp; coded by <strong>Arsalan Ramzan</strong> · BSIT — Punjab University Potohar Campus</p>
+      <div class="footer-socials">
+        <a href="https://wa.me/923701794679" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arsalan-ramzan-b28202253" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
