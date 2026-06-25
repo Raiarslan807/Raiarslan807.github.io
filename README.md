@@ -1,98 +1,141 @@
-# Arsalan Ramzan — Portfolio
+# 🌐 Arsalan Ramzan — Developer Portfolio
 
-My personal developer portfolio, built to showcase who I am, what I can build, and how to reach me.
+A modern, responsive developer portfolio showcasing my skills, featured projects, and professional journey as a Front End Developer.
 
-**Live site:** https://raiarslan807.github.io
+## 🔗 Live Demo
 
-![status](https://img.shields.io/badge/status-live-25d366) ![license](https://img.shields.io/badge/license-MIT-7c3aed)
+[![Live Website](https://img.shields.io/badge/🌍_Visit_Portfolio-Live_Website-25D366?style=for-the-badge)](https://raiarslan807.github.io)
 
-## About
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)
 
-I'm a BSIT 5th Semester student at the University of the Punjab, Potohar Campus. I build modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. This portfolio is itself one of my projects — designed and coded from scratch, no templates.
+---
 
-## Built With
+## 🛠 Tech Stack
 
-- **HTML5** — semantic structure
-- **CSS3** — custom properties, Grid, Flexbox, animations, glassmorphism
-- **JavaScript (Vanilla)** — canvas aurora background, scroll reveals, custom cursor, form handling
-- **Font Awesome** — icons
-- **Google Fonts** — Space Grotesk & Playfair Display
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
-No frameworks, no build tools — just clean code in three files.
+---
 
-## Features
+## 📖 Overview
 
-- Animated aurora background rendered on HTML canvas
-- Custom cursor with trailing ring effect
-- Scroll-triggered reveal animations throughout
-- Animated skill progress bars
-- Project cards with hover overlays linking to live demos and code
-- Contact form with floating labels and inline validation
-- Direct WhatsApp click-to-chat integration
-- Fully responsive — works on mobile, tablet, and desktop
-- Respects `prefers-reduced-motion` for accessibility
+This portfolio represents my work as a Front End Developer and serves as a central place to showcase my projects, technical skills, and contact information.
 
-## Project Structure
+Built entirely from scratch without templates, it reflects my focus on clean design, responsive layouts, accessibility, and modern web development practices.
 
-```
+---
+
+## ✨ Features
+
+* Animated Aurora background using HTML Canvas
+* Interactive custom cursor
+* Scroll reveal animations
+* Animated skill progress bars
+* Responsive project showcase
+* Contact form with validation
+* WhatsApp click-to-chat integration
+* Mobile-first responsive design
+* Accessibility support (`prefers-reduced-motion`)
+
+---
+
+## 📂 Project Structure
+
+```text
 arsalan-portfolio/
-├── index.html       # Page structure and content
-├── style.css        # All styling and animations
-├── script.js        # Interactivity and effects
-├── Arsalan.jpg      # Profile photo
-└── README.md         # This file
+│
+├── index.html
+├── style.css
+├── script.js
+├── Arsalan.jpg
+└── README.md
 ```
 
-## Sections
+---
 
-| Section | Description |
-|---|---|
-| Hero | Introduction and quick links to work and WhatsApp |
-| About | Background, education, and quick facts |
-| Skills | Tech stack with animated proficiency bars |
-| Projects | Featured live project plus demo builds |
-| Contact | Direct contact form and links |
+## 📄 Website Sections
 
-## Featured Project
+| Section  | Description                          |
+| -------- | ------------------------------------ |
+| Hero     | Introduction with quick navigation   |
+| About    | Background and professional overview |
+| Skills   | Technologies and technical expertise |
+| Projects | Selected development projects        |
+| Contact  | Contact form and social links        |
 
-**EPIC Smart Laundry** — a live laundry pickup and delivery service website with booking, pricing plans, order tracking, and WhatsApp integration.
-Live: https://epic-smart-laundry-zeta.vercel.app/
+---
 
-## Running Locally
+## ⭐ Featured Project
 
-No build step needed. Clone the repo and open `index.html` in a browser:
+### EPIC Smart Laundry
+
+A modern laundry pickup and delivery website featuring booking functionality, pricing plans, order tracking, and WhatsApp integration.
+
+### 🌍 Live Project
+
+https://epic-smart-laundry-zeta.vercel.app/
+
+---
+
+## 💻 Run Locally
+
+Clone the repository
 
 ```bash
 git clone https://github.com/Raiarslan807/Raiarslan807.github.io.git
-cd Raiarslan807.github.io
-open index.html
 ```
 
-Or use a local server (recommended for the contact form to behave correctly):
+Go to the project folder
+
+```bash
+cd Raiarslan807.github.io
+```
+
+Run a local server
 
 ```bash
 npx serve .
 ```
 
-## Deployment
+---
 
-This site is deployed for free using **GitHub Pages**.
+## 🚀 Deployment
 
-1. Push all files to a repo named `Raiarslan807.github.io`
-2. Go to **Settings → Pages → Source** and select the `main` branch
-3. Save — the site goes live at `https://raiarslan807.github.io`
+This project is deployed using **GitHub Pages**.
 
-## Contact
+1. Push your code to the repository.
+2. Open **Settings → Pages**.
+3. Select the **main** branch.
+4. Save the settings.
 
-- **WhatsApp:** [0370-1794679](https://wa.me/923701794679)
-- **Email:** arslanramzan807@gmail.com
-- **GitHub:** [@Raiarslan807](https://github.com/Raiarslan807)
-- **LinkedIn:** [Arsalan Ramzan](https://www.linkedin.com/in/arsalan-ramzan-b28202253)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+Your website will be published automatically.
 
 ---
 
-Designed and coded by **Arsalan Ramzan** · BSIT — University of the Punjab, Potohar Campus
+## 📬 Contact
+
+* 📧 **Email:** [arslanramzan807@gmail.com](mailto:arslanramzan807@gmail.com)
+* 💬 **WhatsApp:** https://wa.me/923701794679
+* 💼 **LinkedIn:** https://www.linkedin.com/in/arsalan-ramzan-b28202253
+* 🖥 **GitHub:** https://github.com/Raiarslan807
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Arsalan Ramzan**
+
+Front End Developer
+
+⭐ If you like this project, consider giving it a star.
