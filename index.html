@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
 </head>
 <body>
 
@@ -76,16 +77,8 @@
 
         <div class="about-visual" data-reveal>
           <div class="av-frame">
-            <!--
-              ╔══════════════════════════════════════╗
-              ║  ADD YOUR PHOTO:                     ║
-              ║  Replace "your-photo.jpg" below with ║
-              ║  your actual image filename and put  ║
-              ║  the image in the same folder.       ║
-              ╚══════════════════════════════════════╝
-            -->
             <img
-              src="Arsalan.jpg"
+              src="images/Arsalan..png"
               alt="Arsalan Ramzan"
               class="av-photo"
               onerror="this.style.display='none'; document.getElementById('av-fallback').style.display='flex';"
@@ -106,7 +99,7 @@
             Passionate about the <em>craft</em> of the web
           </h2>
           <p class="body-text" data-reveal>
-            I'm <strong>Arsalan Ramzan</strong>, a <strong>BSIT 5th Semester</strong> student at the University of the Punjab Pothohar Campus, Rawalpindi. I write clean, semantic HTML, style with precision in CSS, and bring interactivity to life with JavaScript.
+            I'm <strong>Arsalan Ramzan.</strong>I write clean, semantic HTML, style with precision in CSS, and bring interactivity to life with JavaScript.
           </p>
           <p class="body-text" data-reveal>
             Every project I build is a chance to improve — in performance, design thinking, and user experience. I'm currently expanding into modern frameworks and always open to collaboration.
@@ -185,15 +178,17 @@
   <section id="projects">
     <div class="container">
       <p class="eyebrow" data-reveal>Portfolio</p>
-      <h2 class="section-heading" data-reveal>Things I've <em>built</em></h2>
+      <h2 class="section-heading" data-reveal>Projects I've <em>built</em></h2>
 
       <div class="projects-grid">
 
-        <!-- ★ LIVE PROJECT — FIRST ★ -->
+        <!-- ★ Epic Smart Laundry  ★ -->
         <article class="proj-card featured live-badge" data-reveal data-delay="0">
           <div class="proj-thumb thumb-laundry">
             <div class="proj-live-tag"><i class="fas fa-circle"></i> Live</div>
-            <span class="thumb-emoji">👕</span>
+            <img src="images/Epic-smart-laundry.png"
+     alt="EPIC Smart Laundry"
+     class="proj-image">
             <div class="proj-overlay">
               <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
               <a href="https://epic-smart-laundry-zeta.vercel.app/" target="_blank" rel="noopener" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live Site</a>
@@ -208,53 +203,239 @@
           </div>
         </article>
 
-        <!-- Demo Project 2 -->
-        <article class="proj-card" data-reveal data-delay="100">
-          <div class="proj-thumb thumb-1">
-            <span class="thumb-emoji">🛒</span>
-            <div class="proj-overlay">
-              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
-              <a href="#" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live</a>
-            </div>
-          </div>
-          <div class="proj-body">
-            <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <h3 class="proj-title">E-Commerce Landing</h3>
-            <p class="proj-desc">A pixel-perfect product landing page with cart UI, animated hover states and fully responsive grid layout.</p>
-          </div>
-        </article>
+        <!-- stryde-ecommerce -->
+ <article class="proj-card featured live-badge" data-reveal data-delay="100">
+  <div class="proj-thumb thumb-ecommerce">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+    <img src="Images/Styryde-ecommerce.png"
+         alt="E-Commerce Landing"
+         class="proj-image">
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+      <a href="https://raiarslan807.github.io/stryde-ecommerce/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
 
-        <!-- Demo Project 3 -->
-        <article class="proj-card" data-reveal data-delay="200">
-          <div class="proj-thumb thumb-2">
-            <span class="thumb-emoji">🌤️</span>
-            <div class="proj-overlay">
-              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
-              <a href="#" class="proj-btn proj-btn--live"><i class="fas fa-arrow-up-right-from-square"></i> Live</a>
-            </div>
-          </div>
-          <div class="proj-body">
-            <div class="proj-tags"><span>JavaScript</span><span>REST API</span><span>CSS</span></div>
-            <h3 class="proj-title">Weather Dashboard</h3>
-            <p class="proj-desc">Real-time weather data via OpenWeather API with dynamic gradients, city search and 5-day forecast cards.</p>
-          </div>
-        </article>
+    <h3 class="proj-title">Stryde Ecommerce</h3>
 
-        <!-- Demo Project 4 -->
-        <article class="proj-card" data-reveal data-delay="300">
-          <div class="proj-thumb thumb-3">
-            <span class="thumb-emoji">✅</span>
-            <div class="proj-overlay">
-              <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn"><i class="fab fa-github"></i> Code</a>
-              <span class="proj-btn proj-btn--soon">Coming Soon</span>
-            </div>
-          </div>
-          <div class="proj-body">
-            <div class="proj-tags"><span>Bootstrap 5</span><span>JS</span><span>LocalStorage</span></div>
-            <h3 class="proj-title">Task Manager App</h3>
-            <p class="proj-desc">A drag-and-drop task manager with categories, priority flags and persistent local storage built on Bootstrap 5.</p>
-          </div>
-        </article>
+    <p class="proj-desc">
+      A modern and fully responsive e-commerce landing page featuring
+      interactive product cards, shopping cart UI, smooth animations,
+      hover effects, and a clean user experience. Deployed live for
+      seamless browsing across all devices.
+    </p>
+  </div>
+</article>
+
+<!-- Weather Dashboard -->
+<article class="proj-card featured live-badge" data-reveal data-delay="200">
+  <div class="proj-thumb thumb-weather">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+
+    <img src="images/skycast-weather.png"
+         alt="Weather Dashboard"
+         class="proj-image">
+
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+
+      <a href="https://raiarslan807.github.io/skycast-weather/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>JavaScript</span>
+      <span>REST API</span>
+      <span>CSS</span>
+    </div>
+    <h3 class="proj-title">Skycast Weather</h3>
+    <p class="proj-desc">
+      A modern weather application providing real-time weather updates,
+      5-day forecasts, city search, and dynamic weather visuals using the
+      OpenWeather API. Fully responsive and optimized for all devices.
+    </p>
+  </div>
+</article>
+
+        <!-- Task Manager App -->
+<article class="proj-card featured live-badge" data-reveal data-delay="300">
+  <div class="proj-thumb thumb-task">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+
+    <img src="images/flowboard-tasks.png"
+         alt="Task Manager App"
+         class="proj-image">
+    
+
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+
+      <a href="https://raiarslan807.github.io/flowboard-tasks/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>Bootstrap 5</span>
+      <span>JavaScript</span>
+      <span>LocalStorage</span>
+    </div>
+
+    <h3 class="proj-title">Flowboard Tasks</h3>
+
+    <p class="proj-desc">
+      A modern task management application featuring drag-and-drop task organization,
+      priority labels, category management, persistent LocalStorage support,
+      and a fully responsive interface built with Bootstrap 5.
+    </p>
+  </div>
+</article>
+
+<!-- EPIC Solutions -->
+<article class="proj-card featured live-badge" data-reveal data-delay="400">
+  <div class="proj-thumb thumb-solutions">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+
+    <img src="images/Epic-Solutions.png"
+         alt="EPIC Solutions"
+         class="proj-image">
+   
+
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+
+      <a href="https://raiarslan807.github.io/EPIC-Solutions/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+    </div>
+
+    <h3 class="proj-title">EPIC Solutions</h3>
+
+    <p class="proj-desc">
+      A professional business website developed to showcase company services,
+      digital solutions, and client success stories. Designed with a modern,
+      responsive interface, smooth animations, and a user-friendly experience
+      to strengthen online business presence.
+    </p>
+  </div>
+</article>
+
+<!-- Epic Restaurant -->
+<article class="proj-card featured live-badge" data-reveal data-delay="500">
+  <div class="proj-thumb thumb-restaurant">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+
+    <img src="images/Epic-Resturant.png"
+         alt="Epic Restaurant"
+         class="proj-image">
+  
+
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+
+      <a href="https://raiarslan807.github.io/Epic-restaurant/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+    </div>
+
+    <h3 class="proj-title">EPIC Restaurant</h3>
+
+    <p class="proj-desc">
+      A modern and fully responsive restaurant website featuring an elegant
+      menu showcase, online reservations, chef specials, customer testimonials,
+      and a seamless user experience across all devices.
+    </p>
+  </div>
+</article>
+
+<!-- ApnaBazaar -->
+<article class="proj-card featured live-badge" data-reveal data-delay="600">
+  <div class="proj-thumb thumb-apnabazaar">
+    <div class="proj-live-tag">
+      <i class="fas fa-circle"></i> Live
+    </div>
+
+    <img src="Images/ApnaBazaar.png"
+         alt="ApnaBazaar"
+         class="proj-image">
+    
+    <div class="proj-overlay">
+      <a href="https://github.com/Raiarslan807" target="_blank" rel="noopener" class="proj-btn">
+        <i class="fab fa-github"></i> Code
+      </a>
+
+      <a href="https://raiarslan807.github.io/ApnaBazaar/" target="_blank" rel="noopener" class="proj-btn proj-btn--live">
+        <i class="fas fa-arrow-up-right-from-square"></i> Live Site
+      </a>
+    </div>
+  </div>
+
+  <div class="proj-body">
+    <div class="proj-tags">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+    </div>
+
+    <h3 class="proj-title">ApnaBazaar</h3>
+
+    <p class="proj-desc">
+      A responsive e-commerce platform built to deliver a seamless online
+      shopping experience with product browsing, category filtering,
+      shopping cart functionality, and a clean, user-friendly interface
+      optimized for all devices.
+    </p>
+  </div>
+</article>
+
 
       </div>
     </div>
