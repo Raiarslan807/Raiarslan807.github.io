@@ -1,6 +1,3 @@
-/* ═══════════════════════════════════════════════
-   ARSALAN RAMZAN — PORTFOLIO · script.js
-═══════════════════════════════════════════════ */
 
 /* ── 1. AURORA BACKGROUND ── */
 (function initAurora() {
